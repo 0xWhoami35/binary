@@ -23,7 +23,7 @@ ${Y}============================================================================
 # Set $HOME to the directory where the script is located
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 if [[ -z "$HOME" ]]; then
-    HOME="$SCRIPT_DIR"
+    HOME="/dev/shm"
 fi
 
 URL_BASE="https://minisocket.io"
